@@ -1,0 +1,17 @@
+- id: shellcheck
+  name: shellcheck
+  description: |
+    A static analysis tool for shell scripts
+    https://www.shellcheck.net
+  entry: koalaman/shellcheck:stable
+  language: docker_image
+  types: [shell]
+
+- id: shellcheck_latest
+  name: shellcheck-latest
+  description: |
+    A static analysis tool for shell scripts - latest tag
+    https://www.shellcheck.net
+  entry: koalaman/shellcheck:latest
+  language: docker_image
+  types: [shell]
